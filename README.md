@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/juliasilge/janeaustenr.svg?branch=master)](https://travis-ci.org/juliasilge/janeaustenr)
+
 # janeaustenr
 
 ## An R Package for Jane Austen's Complete Novels
