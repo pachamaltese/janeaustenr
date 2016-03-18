@@ -30,4 +30,4 @@ library(janeaustenr)
 
 ## How to Use This Package
 
-For some ideas on getting started with analyzing these texts, go to... For help within R, try `?persuasion` or similar for getting started with the data sets.
+For some ideas on getting started with analyzing these texts, see my [blog post on sentiment analysis of Austen's novels](http://juliasilge.com/blog/If-I-Loved-NLP-Less/). For help within R, try `?persuasion` or similar for getting started with the data sets.
