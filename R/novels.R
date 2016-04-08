@@ -1,4 +1,5 @@
 #' An R Package for Jane Austen's Complete Novels
+#' 
 #' This package contains the complete text of Jane Austen's novels,
 #' formatted to be convenient for text analysis.
 #' @docType package
@@ -11,9 +12,10 @@ NULL
 #' A dataset containing the text of Jane Austen's 1811 novel "Sense and 
 #' Sensibility". The UTF-8 plain text was sourced from Project Gutenberg
 #' and is divided into elements of about 70 characters each.
+#' (Some elements are blank.)
 #'
 #' @source \url{http://www.gutenberg.org/ebooks/161}
-#' @format A character vector with 10596 elements
+#' @format A character vector with 12262 elements
 "sensesensibility"
 
 #' The text of Jane Austen's novel "Pride and Prejudice"
@@ -21,9 +23,10 @@ NULL
 #' A dataset containing the text of Jane Austen's 1813 novel "Pride and 
 #' Prejudice". The UTF-8 plain text was sourced from Project Gutenberg
 #' and is divided into elements of about 70 characters each.
+#' (Some elements are blank.)
 #'
 #' @source \url{http://www.gutenberg.org/ebooks/1342}
-#' @format A character vector with 10721 elements
+#' @format A character vector with 12447 elements
 "prideprejudice"
 
 #' The text of Jane Austen's novel "Mansfield Park"
@@ -31,19 +34,21 @@ NULL
 #' A dataset containing the text of Jane Austen's 1814 novel "Mansfield
 #' Park". The UTF-8 plain text was sourced from Project Gutenberg
 #' and is divided into elements of about 70 characters each.
+#' (Some elements are blank.)
 #'
 #' @source \url{http://www.gutenberg.org/ebooks/141}
-#' @format A character vector with 13410 elements
+#' @format A character vector with 14768 elements
 "mansfieldpark"
 
 #' The text of Jane Austen's novel "Emma"
 #'
 #' A dataset containing the text of Jane Austen's 1815 novel "Emma".
 #' The UTF-8 plain text was sourced from Project Gutenberg
-#' and is divided into elements of about 70 characters each.
+#' and is divided into elements of about 70 characters each. 
+#' (Some elements are blank.)
 #'
 #' @source \url{http://www.gutenberg.org/ebooks/158}
-#' @format A character vector with 13683 elements
+#' @format A character vector with 15297 elements
 "emma"
 
 #' The text of Jane Austen's novel "Northanger Abbey"
@@ -52,9 +57,10 @@ NULL
 #' published posthumously in 1818.
 #' The UTF-8 plain text was sourced from Project Gutenberg
 #' and is divided into elements of about 70 characters each.
+#' (Some elements are blank.)
 #'
 #' @source \url{http://www.gutenberg.org/ebooks/121}
-#' @format A character vector with 6651 elements
+#' @format A character vector with 7840 elements
 "northangerabbey"
 
 #' The text of Jane Austen's novel "Persuasion"
@@ -63,7 +69,8 @@ NULL
 #' published posthumously in 1818.
 #' The UTF-8 plain text was sourced from Project Gutenberg
 #' and is divided into elements of about 70 characters each.
+#' (Some elements are blank.)
 #'
 #' @source \url{http://www.gutenberg.org/ebooks/105}
-#' @format A character vector with 7210 elements
+#' @format A character vector with 8328 elements
 "persuasion"
