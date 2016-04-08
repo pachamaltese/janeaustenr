@@ -6,7 +6,7 @@
 \alias{janeaustenr-package}
 \title{An R Package for Jane Austen's Complete Novels}
 \description{
-This package contains the complete text of Jane Austen's novels,
-formatted to be convenient for text analysis.
+This package contains the complete text of Jane Austen's 6 completed, 
+published novels, formatted to be convenient for text analysis.
 }
 
