@@ -1,8 +1,10 @@
-This is my first submission to CRAN.
+## Release summary
+
+This is the first attempted CRAN release of janeaustenr, and my first submission to CRAN.
 
 ## Test environments
 * Local OS X install: R 3.2.4
-* Ubuntu 14.04 (on Travis-CI):
+* Ubuntu 14.04 (on Travis-CI): R 3.2.4
 * Win-builder: R-devel and R-release
 
 ## R CMD check results
