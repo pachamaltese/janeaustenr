@@ -1,3 +1,4 @@
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/janeaustenr)](http://cran.r-project.org/package=janeaustenr)
 [![Build Status](https://travis-ci.org/juliasilge/janeaustenr.svg?branch=master)](https://travis-ci.org/juliasilge/janeaustenr)
 
 # janeaustenr
