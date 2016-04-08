@@ -13,7 +13,7 @@ prideprejudice
 }
 \description{
 A dataset containing the text of Jane Austen's 1813 novel "Pride and 
-Prejudice". The UTF-8 plain text was sourced from the Gutenberg Project
+Prejudice". The UTF-8 plain text was sourced from Project Gutenberg
 and is divided into elements of about 70 characters each.
 }
 \keyword{datasets}
