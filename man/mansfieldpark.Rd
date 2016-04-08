@@ -4,7 +4,7 @@
 \name{mansfieldpark}
 \alias{mansfieldpark}
 \title{The text of Jane Austen's novel "Mansfield Park"}
-\format{A character vector with 13410 elements}
+\format{A character vector with 14768 elements}
 \source{
 \url{http://www.gutenberg.org/ebooks/141}
 }
@@ -15,6 +15,7 @@ mansfieldpark
 A dataset containing the text of Jane Austen's 1814 novel "Mansfield
 Park". The UTF-8 plain text was sourced from Project Gutenberg
 and is divided into elements of about 70 characters each.
+(Some elements are blank.)
 }
 \keyword{datasets}
 

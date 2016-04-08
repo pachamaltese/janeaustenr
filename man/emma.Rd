@@ -4,7 +4,7 @@
 \name{emma}
 \alias{emma}
 \title{The text of Jane Austen's novel "Emma"}
-\format{A character vector with 13683 elements}
+\format{A character vector with 15297 elements}
 \source{
 \url{http://www.gutenberg.org/ebooks/158}
 }
@@ -14,7 +14,8 @@ emma
 \description{
 A dataset containing the text of Jane Austen's 1815 novel "Emma".
 The UTF-8 plain text was sourced from Project Gutenberg
-and is divided into elements of about 70 characters each.
+and is divided into elements of about 70 characters each. 
+(Some elements are blank.)
 }
 \keyword{datasets}
 

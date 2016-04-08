@@ -4,11 +4,8 @@
 \name{janeaustenr}
 \alias{janeaustenr}
 \alias{janeaustenr-package}
-\title{An R Package for Jane Austen's Complete Novels
-This package contains the complete text of Jane Austen's novels,
-formatted to be convenient for text analysis.}
+\title{An R Package for Jane Austen's Complete Novels}
 \description{
-An R Package for Jane Austen's Complete Novels
 This package contains the complete text of Jane Austen's novels,
 formatted to be convenient for text analysis.
 }
