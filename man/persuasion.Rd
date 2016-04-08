@@ -14,7 +14,7 @@ persuasion
 \description{
 A dataset containing the text of Jane Austen's novel "Persuasion", 
 published posthumously in 1818.
-The UTF-8 plain text was sourced from the Gutenberg Project
+The UTF-8 plain text was sourced from Project Gutenberg
 and is divided into elements of about 70 characters each.
 }
 \keyword{datasets}

@@ -13,7 +13,7 @@ mansfieldpark
 }
 \description{
 A dataset containing the text of Jane Austen's 1814 novel "Mansfield
-Park". The UTF-8 plain text was sourced from the Gutenberg Project
+Park". The UTF-8 plain text was sourced from Project Gutenberg
 and is divided into elements of about 70 characters each.
 }
 \keyword{datasets}
