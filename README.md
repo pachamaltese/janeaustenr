@@ -32,3 +32,5 @@ library(janeaustenr)
 ## How to Use This Package
 
 For some ideas on getting started with analyzing these texts, see my [blog post on sentiment analysis of Austen's novels](http://juliasilge.com/blog/If-I-Loved-NLP-Less/). For help within R, try `?persuasion` or similar for getting started with the data sets.
+
+This project is released with a [Contributor Code of Conduct](CONDUCT.md). By participating in this project you agree to abide by its terms.
