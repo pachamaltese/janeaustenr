@@ -1,5 +1,5 @@
 Package: janeaustenr
-Title: An R Package for Jane Austen's Complete Novels
+Title: Jane Austen's Complete Novels
 Version: 0.0.1.9000
 Date: 2016-04-08
 Authors@R: person("Julia", "Silge", email = "julia.silge@gmail.com", role = c("aut", "cre"))

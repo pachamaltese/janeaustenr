@@ -1,4 +1,4 @@
-#' An R Package for Jane Austen's Complete Novels
+#' Jane Austen's Complete Novels
 #' 
 #' This package contains the complete text of Jane Austen's 6 completed, 
 #' published novels, formatted to be convenient for text analysis.
