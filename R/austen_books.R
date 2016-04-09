@@ -10,6 +10,13 @@
 #' @name austen_books
 #' 
 #' @import dplyr
+#' 
+#' @examples 
+#' 
+#' library(dplyr)
+#'
+#' austen_books() %>% group_by(book) %>%
+#'      summarise(total_lines = n())
 #'
 #' @export
 

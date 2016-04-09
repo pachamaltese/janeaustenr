@@ -15,4 +15,12 @@ two columns: \code{text}, which contains the text of the novels divided into
 elements of up to about 70 characters each, and \code{book}, which contains the titles of
 the novels as a factor in order of publication.
 }
+\examples{
+
+library(dplyr)
+
+austen_books() \%>\% group_by(book) \%>\%
+     summarise(total_lines = n())
+
+}
 

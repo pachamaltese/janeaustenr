@@ -9,7 +9,6 @@ This is the first attempted CRAN release of janeaustenr, and my first submission
 
 ## R CMD check results
 
-0 errors | 0 warnings | 0 notes
+0 errors | 0 warnings | 1 note
 
-* On Win-builder, there was a message about possibly invalid URLs for the Project Gutenberg URLs in the .Rd files because Project Gutenberg blocks automated traffic
-* On Win-builder, there was a message about possibly mis-spelled words in DESCRIPTION (Austen's at 2:30 and 6:34, Northanger at 8:32) but these are the correct spellings
+* There was a note about possibly invalid URLs for the Project Gutenberg URLs in the .Rd files because Project Gutenberg blocks automated traffic, and about possibly mis-spelled words in DESCRIPTION (Austen's at 2:30 and 6:34, Northanger at 8:32) but these are the correct spellings.
