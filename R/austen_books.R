@@ -5,9 +5,11 @@
 #' elements of up to about 70 characters each, and \code{book}, which contains the titles of
 #' the novels as a factor in order of publication.
 #' 
-#' @return A data frame with two columns: text and book
+#' @return A data frame with two columns: \code{text} and \code{book}
 #' 
 #' @name austen_books
+#' 
+#' @import dplyr
 #'
 #' @export
 

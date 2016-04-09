@@ -7,7 +7,7 @@
 austen_books()
 }
 \value{
-A data frame with two columns: text and book
+A data frame with two columns: \code{text} and \code{book}
 }
 \description{
 Returns a tidy data frame of Jane Austen's 6 completed, published novels with 
