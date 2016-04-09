@@ -3,8 +3,8 @@
 This is the first attempted CRAN release of janeaustenr, and my first submission to CRAN.
 
 ## Test environments
-* Local OS X install: R 3.2.4
-* Ubuntu 14.04 (on Travis-CI): R 3.2.4
+* Local OS X install: R 3.2.4, R-devel
+* Ubuntu 14.04 (on Travis-CI): R 3.2.4, R-devel
 * Win-builder: R-devel and R-release
 
 ## R CMD check results
