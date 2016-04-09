@@ -19,6 +19,8 @@ This package provides access to the full texts of Jane Austen's 6 completed, pub
 * `northangerabbey`:  *Northanger Abbey*, published posthumously in 1818
 * `persuasion`:  *Persuasion*, also published posthumously in 1818
 
+There is also a function `austen_books()` that returns a tidy data frame of all 6 novels.
+
 ## Installation
 
 To install the package type the following:
