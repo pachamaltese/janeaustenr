@@ -11,7 +11,7 @@ NULL
 #'
 #' A dataset containing the text of Jane Austen's 1811 novel "Sense and 
 #' Sensibility". The UTF-8 plain text was sourced from Project Gutenberg
-#' and is divided into elements of about 70 characters each.
+#' and is divided into elements of up to about 70 characters each.
 #' (Some elements are blank.)
 #'
 #' @source \url{http://www.gutenberg.org/ebooks/161}
@@ -22,7 +22,7 @@ NULL
 #'
 #' A dataset containing the text of Jane Austen's 1813 novel "Pride and 
 #' Prejudice". The UTF-8 plain text was sourced from Project Gutenberg
-#' and is divided into elements of about 70 characters each.
+#' and is divided into elements of up to about 70 characters each.
 #' (Some elements are blank.)
 #'
 #' @source \url{http://www.gutenberg.org/ebooks/1342}
@@ -33,7 +33,7 @@ NULL
 #'
 #' A dataset containing the text of Jane Austen's 1814 novel "Mansfield
 #' Park". The UTF-8 plain text was sourced from Project Gutenberg
-#' and is divided into elements of about 70 characters each.
+#' and is divided into elements of up to about 70 characters each.
 #' (Some elements are blank.)
 #'
 #' @source \url{http://www.gutenberg.org/ebooks/141}
@@ -44,7 +44,7 @@ NULL
 #'
 #' A dataset containing the text of Jane Austen's 1815 novel "Emma".
 #' The UTF-8 plain text was sourced from Project Gutenberg
-#' and is divided into elements of about 70 characters each. 
+#' and is divided into elements of up to about 70 characters each. 
 #' (Some elements are blank.)
 #'
 #' @source \url{http://www.gutenberg.org/ebooks/158}
@@ -56,7 +56,7 @@ NULL
 #' A dataset containing the text of Jane Austen's novel "Northanger Abbey", 
 #' published posthumously in 1818.
 #' The UTF-8 plain text was sourced from Project Gutenberg
-#' and is divided into elements of about 70 characters each.
+#' and is divided into elements of up to about 70 characters each.
 #' (Some elements are blank.)
 #'
 #' @source \url{http://www.gutenberg.org/ebooks/121}
@@ -68,7 +68,7 @@ NULL
 #' A dataset containing the text of Jane Austen's novel "Persuasion", 
 #' published posthumously in 1818.
 #' The UTF-8 plain text was sourced from Project Gutenberg
-#' and is divided into elements of about 70 characters each.
+#' and is divided into elements of up to about 70 characters each.
 #' (Some elements are blank.)
 #'
 #' @source \url{http://www.gutenberg.org/ebooks/105}

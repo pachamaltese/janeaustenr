@@ -6,8 +6,8 @@ Authors@R: person("Julia", "Silge", email = "julia.silge@gmail.com", role = c("a
 Description: Full texts for Jane Austen's 6 completed novels, ready for text
     analysis. These novels are "Sense and Sensibility", "Pride and Prejudice",
     "Mansfield Park", "Emma", "Northanger Abbey", and "Persuasion".
-Depends:
-    R (>= 3.1.2)
+Depends: R (>= 3.1.2)
+Imports: dplyr
 License: MIT + file LICENSE
 LazyData: true
 RoxygenNote: 5.0.1
