@@ -9,9 +9,16 @@ This is the first attempted CRAN release of janeaustenr, and my first submission
 
 ## R CMD check results
 
-0 errors | 0 warnings | 0 note
+0 errors | 0 warnings | 1 note
 
-There was a message about possibly invalid URLs for the Project Gutenberg URLs in the .Rd files, and about possibly mis-spelled words in DESCRIPTION (Austen's at 2:30 and 6:34, Northanger at 8:32).
+There was 1 note about non-ASCII, marked UTF-8 strings; there are 2 in the data sets.
+
+* `mansfieldpark[14652]` has a British pound symbol.
+* `persuasion[7066]` has an e with an accent grave (in the word "arrangè")
+
+I believe it would violate Project Gutenberg's license to change these in the texts, so I would like to keep them as is.
+
+Also, there was a message about possibly invalid URLs for the Project Gutenberg URLs in the .Rd files, and about possibly mis-spelled words in DESCRIPTION (Austen's at 2:30 and 6:34, Northanger at 8:32).
 
 * Project Gutenberg blocks automated traffic, which caused the issue with the possibly invalid URLs.
 * Those words are spelled correctly.

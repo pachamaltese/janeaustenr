@@ -19,13 +19,9 @@ prideprejudice <- read_lines("http://www.gutenberg.org/cache/epub/1342/pg1342.tx
 prideprejudice <- prideprejudice[1:(length(prideprejudice) - 366)]
 prideprejudice <- prideprejudice[!is.na(prideprejudice)]
 
-## Mansfield Park has one line with a non-ASCII character (a British pound
-## symbol); let's edit it for CRAN
-
 mansfieldpark <- read_lines("http://www.gutenberg.org/cache/epub/141/pg141.txt", skip = 29)
 mansfieldpark <- mansfieldpark[1:(length(mansfieldpark) - 367)]
 mansfieldpark <- mansfieldpark[!is.na(mansfieldpark)]
-mansfieldpark[14652] <- "the command of her beauty, and her 20,000 pounds, any one who could satisfy the"
 
 emma <- read_lines("http://www.gutenberg.org/cache/epub/158/pg158.txt", skip = 29)
 emma <- emma[1:(length(emma) - 367)]
@@ -35,14 +31,9 @@ northangerabbey <- read_lines("http://www.gutenberg.org/cache/epub/121/pg121.txt
 northangerabbey <- northangerabbey[1:(length(northangerabbey) - 383)]
 northangerabbey <- northangerabbey[!is.na(northangerabbey)]
 
-## Persuasion also has a line with a non-ASCII character (e with an accent); 
-## let's edit it for CRAN
-
 persuasion <- read_lines("http://www.gutenberg.org/cache/epub/105/pg105.txt", skip = 35)
 persuasion <- persuasion[1:(length(persuasion) - 371)]
 persuasion <- persuasion[!is.na(persuasion)]
-persuasion[7066] <- "concert.  Something so formal and _arrange_ in her air!  and she sits so"
-
 
 ## Now, add the data files to the package
 
