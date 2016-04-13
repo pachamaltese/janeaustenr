@@ -9,9 +9,11 @@ This is the first attempted CRAN release of janeaustenr, and my first submission
 
 ## R CMD check results
 
-0 errors | 0 warnings | 1 note
+0 errors | 0 warnings | 2 notes
 
-There was 1 note about non-ASCII, marked UTF-8 strings; there are 2 in the data sets.
+There is 1 note about me being a new maintainer.
+
+There is 1 note about non-ASCII, marked UTF-8 strings; there are 2 in the data sets.
 
 * `mansfieldpark[14652]` has a British pound symbol.
 * `persuasion[7066]` has an e with an accent grave (in the word "arrangè")
