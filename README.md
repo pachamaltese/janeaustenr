@@ -26,6 +26,13 @@ There is also a function `austen_books()` that returns a tidy data frame of all 
 To install the package type the following:
 
 ```
+install.packages("janeaustenr")
+library(janeaustenr)
+```
+
+Or you can install the development version from Github:
+
+```
 library(devtools)
 install_github("juliasilge/janeaustenr")
 library(janeaustenr)
