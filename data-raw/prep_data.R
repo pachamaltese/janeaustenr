@@ -1,3 +1,28 @@
+## This is the script used to download the Project Gutenberg text files and
+## add them to the janeaustenr package for v0.1.1 
+
+library(gutenbergr)
+sensesensibility <- gutenberg_download(161)$text
+sensesensibility <- sensesensibility[14:length(sensesensibility)]
+prideprejudice <- gutenberg_download(1342)$text
+mansfieldpark <- gutenberg_download(141)$text
+emma <- gutenberg_download(158)$text
+northangerabbey <- gutenberg_download(121)$text
+persuasion <- gutenberg_download(105)$text
+
+## Now, add the data files to the package
+
+devtools::use_data(sensesensibility, overwrite = TRUE)
+devtools::use_data(prideprejudice, overwrite = TRUE)
+devtools::use_data(mansfieldpark, overwrite = TRUE)
+devtools::use_data(emma, overwrite = TRUE)
+devtools::use_data(northangerabbey, overwrite = TRUE)
+devtools::use_data(persuasion, overwrite = TRUE)
+
+########################################################################
+# script for v0.1.0 .rda files is below 
+########################################################################
+
 ## This is the script used to process the UTF-8 plain text files from
 ## Project Gutenberg and add them to the janeaustenr package.
 ## Project Gutenberg doesn't like automated traffic very much so be careful 
