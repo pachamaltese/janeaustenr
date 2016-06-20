@@ -15,6 +15,12 @@ two columns: \code{text}, which contains the text of the novels divided into
 elements of up to about 70 characters each, and \code{book}, which contains the titles of
 the novels as a factor in order of publication.
 }
+\details{
+Users should be aware that there are some differences in usage 
+between the novels as made available by Project Gutenberg. For example, 
+"anything" vs. "any thing", "Mr" vs. "Mr.", and using underscores vs. all 
+caps to indicate italics/emphasis.
+}
 \examples{
 
 library(dplyr)
