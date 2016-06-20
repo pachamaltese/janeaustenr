@@ -1,6 +1,6 @@
 Package: janeaustenr
 Title: Jane Austen's Complete Novels
-Version: 0.1.0.9000
+Version: 0.1.1
 Date: 2016-06-20
 Authors@R: person("Julia", "Silge", email = "julia.silge@gmail.com", role = c("aut", "cre"))
 Description: Full texts for Jane Austen's 6 completed novels, ready for text
