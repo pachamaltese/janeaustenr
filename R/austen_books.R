@@ -14,8 +14,6 @@
 #' 
 #' @name austen_books
 #' 
-#' @import dplyr
-#' 
 #' @examples 
 #' 
 #' library(dplyr)
@@ -24,14 +22,16 @@
 #'      summarise(total_lines = n())
 #'
 #' @export
-
 austen_books <- function(){
-        ret <- bind_rows(data_frame(text = sensesensibility, book = "Sense & Sensibility"),
-                  data_frame(text = prideprejudice, book = "Pride & Prejudice"),
-                  data_frame(text = mansfieldpark, book = "Mansfield Park"),
-                  data_frame(text = emma, book = "Emma"),
-                  data_frame(text = northangerabbey, book = "Northanger Abbey"),
-                  data_frame(text = persuasion, book = "Persuasion"))
-        ret <- mutate(ret, book = factor(book, levels = unique(book)))
-        ret
+        books <- list(
+                "Sense & Sensibility" = sensesensibility,
+                "Pride & Prejudice" = prideprejudice,
+                "Mansfield Park" = mansfieldpark,
+                "Emma" = emma,
+                "Northanger Abbey" = northangerabbey,
+                "Persuasion" = persuasion
+        )
+       ret <- data.frame(text = unlist(books, use.names = FALSE), stringsAsFactors = FALSE)
+       ret$book <- factor(rep(names(books), sapply(books, length)))
+       structure(ret, class = c("tbl_df", "tbl", "data.frame"))
 }

@@ -1,3 +1,7 @@
+# janeaustenr 0.1.2
+
+* Make `dplyr` dependency optional
+
 # janeaustenr 0.1.1
 
 * Added a `NEWS.md` file to track changes to the package.
