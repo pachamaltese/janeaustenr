@@ -1,6 +1,6 @@
 ## Release summary
 
-This is the second CRAN release of janeaustenr. I am submitting a new release to solve a problem of a formatting change in the previous release's .rda files at 10000 lines.
+This is the third CRAN release of janeaustenr. I am submitting a new release because the implementation of the `austen_books` function has been changed to use only base functions (`dplyr` has been moved to Suggests).
 
 ## Test environments
 

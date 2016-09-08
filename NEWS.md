@@ -1,6 +1,6 @@
 # janeaustenr 0.1.2
 
-* Make `dplyr` dependency optional
+* Move `dplyr` to Suggests; change implementation of `austen_books` to use base functions thanks to Jeroen Ooms
 
 # janeaustenr 0.1.1
 
