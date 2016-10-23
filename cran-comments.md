@@ -1,6 +1,6 @@
 ## Release summary
 
-This is the fourth CRAN release of janeaustenr. I am submitting a new release to realign the factor order in the `austen_books` function with publication order.
+This is the fifth CRAN release of janeaustenr. I just submitted a release over the weekend to realign the factor order in the `austen_books` function with publication order, but I did it incorrectly; this release fixes the error. I apologize for submitting another release so soon. I have written [several unit tests](https://github.com/juliasilge/janeaustenr/blob/master/tests/testthat/test_austen_books.R) to make sure I don't make this kind of error in the future.
 
 ## Test environments
 

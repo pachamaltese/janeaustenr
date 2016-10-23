@@ -1,6 +1,10 @@
+# janeaustenr 0.1.4
+
+* Actually fixed factor order in `austen_books` function to align with publication order
+
 # janeaustenr 0.1.3
 
-* Fixed factor order in `austen_books` function to align with publication order
+* Attempted to fix factor order in `austen_books` function to align with publication order (made an error in this)
 * Added unit test to check output of `austen_books`
 
 # janeaustenr 0.1.2
