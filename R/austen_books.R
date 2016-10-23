@@ -33,6 +33,6 @@ austen_books <- function(){
         )
        ret <- data.frame(text = unlist(books, use.names = FALSE), stringsAsFactors = FALSE)
        ret$book <- factor(rep(names(books), sapply(books, length)))
-       levels(ret$book) <- unique(ret$book)
+       ret$book <- factor(ret$book, levels = unique(ret$book))
        structure(ret, class = c("tbl_df", "tbl", "data.frame"))
 }
