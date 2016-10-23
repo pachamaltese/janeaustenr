@@ -1,6 +1,11 @@
+# janeaustenr 0.1.3
+
+* Fixed factor order in `austen_books` function to align with publication order
+* Added unit test to check output of `austen_books`
+
 # janeaustenr 0.1.2
 
-* Move `dplyr` to Suggests; change implementation of `austen_books` to use base functions thanks to Jeroen Ooms
+* Moved `dplyr` to Suggests; change implementation of `austen_books` to use base functions thanks to Jeroen Ooms
 
 # janeaustenr 0.1.1
 
