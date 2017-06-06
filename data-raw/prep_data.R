@@ -6,6 +6,7 @@ sensesensibility <- gutenberg_download(161)$text
 sensesensibility <- sensesensibility[14:length(sensesensibility)]
 prideprejudice <- gutenberg_download(1342)$text
 mansfieldpark <- gutenberg_download(141)$text
+mansfieldpark <- iconv(mansfieldpark, "latin1", "UTF-8")
 emma <- gutenberg_download(158)$text
 northangerabbey <- gutenberg_download(121)$text
 persuasion <- gutenberg_download(105)$text

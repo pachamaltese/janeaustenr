@@ -31,7 +31,8 @@ austen_books <- function(){
                 "Northanger Abbey" = northangerabbey,
                 "Persuasion" = persuasion
         )
-       ret <- data.frame(text = unlist(books, use.names = FALSE), stringsAsFactors = FALSE)
+       ret <- data.frame(text = unlist(books, use.names = FALSE), 
+                         stringsAsFactors = FALSE)
        ret$book <- factor(rep(names(books), sapply(books, length)))
        ret$book <- factor(ret$book, levels = unique(ret$book))
        structure(ret, class = c("tbl_df", "tbl", "data.frame"))

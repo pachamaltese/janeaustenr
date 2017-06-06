@@ -1,3 +1,7 @@
+# janeaustenr 0.1.5
+
+* Fixed encoding for *Mansfield Park*
+
 # janeaustenr 0.1.4
 
 * Actually fixed factor order in `austen_books` function to align with publication order
