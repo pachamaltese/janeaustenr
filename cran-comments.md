@@ -1,6 +1,6 @@
 ## Release summary
 
-This is the sixth CRAN release of janeaustenr; it fixes an encoding issue for some of the text.
+This is the sixth CRAN release of janeaustenr; it fixes an encoding issue for some of the text and a namespace issue.
 
 ## Test environments
 

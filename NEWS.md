@@ -1,6 +1,7 @@
 # janeaustenr 0.1.5
 
 * Fixed encoding for *Mansfield Park*
+* Added package to calls to data objects, since they are lazy-loaded and not in the namespace
 
 # janeaustenr 0.1.4
 
