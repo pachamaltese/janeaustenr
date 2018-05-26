@@ -71,3 +71,22 @@ devtools::use_data(northangerabbey, overwrite = TRUE)
 devtools::use_data(persuasion, overwrite = TRUE)
 
 ## Finished!
+
+## Making a hex sticker for janeaustenr
+
+austen_url <- "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Jane_Austen_signature_from_her_will.svg/2000px-Jane_Austen_signature_from_her_will.svg.png"
+
+hexSticker::sticker(austen_url, 
+                    package="", 
+                    spotlight = FALSE,
+                    h_size = 1.5,
+                    h_color = "#352638",
+                    h_fill = "#996EA3",
+                    p_size=0.5, p_y = 0.1,
+                    p_family = "RobotoCondensed-Regular",
+                    s_x=1, s_y=0.95, s_width=0.96,
+                    url="janeaustenr",
+                    u_size = 3,
+                    u_y = 0.11,
+                    u_color = "#352638",
+                    filename="tools/janeaustenr.png")
