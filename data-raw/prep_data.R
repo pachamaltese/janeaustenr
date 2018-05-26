@@ -79,7 +79,7 @@ hexSticker::sticker("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/J
                     spotlight = FALSE,
                     h_size = 1.5,
                     h_color = "black",
-                    h_fill = "#854467",
+                    h_fill = "#AB5784",
                     p_size=0.5, p_y = 0.1,
                     p_family = "RobotoCondensed-Regular",
                     s_x=1, s_y=0.95, s_width=0.96,
