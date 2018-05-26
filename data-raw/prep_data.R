@@ -88,3 +88,8 @@ hexSticker::sticker("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/J
                     u_y = 0.11,
                     u_color = "black",
                     filename="tools/janeaustenr.png")
+
+jane <- magick::image_read("tools/janeaustenr.png")
+image_scale(jane, "150") %>%
+        image_write(path = "tools/logo.png", format = "png")
+

@@ -1,5 +1,5 @@
 
-# janeaustenr <img src="tools/janeaustenr.png" align="right" width="50%"/>
+# janeaustenr <img src="tools/logo.png" align="right"/>
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/janeaustenr)](https://cran.r-project.org/package=janeaustenr)
 [![Build Status](https://travis-ci.org/juliasilge/janeaustenr.svg?branch=master)](https://travis-ci.org/juliasilge/janeaustenr)
