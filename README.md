@@ -1,8 +1,9 @@
+
+# janeaustenr <img src="tools/janeaustenr.png" align="right" width="50%"/>
+
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/janeaustenr)](https://cran.r-project.org/package=janeaustenr)
 [![Build Status](https://travis-ci.org/juliasilge/janeaustenr.svg?branch=master)](https://travis-ci.org/juliasilge/janeaustenr)
 [![DOI](https://zenodo.org/badge/22224/juliasilge/janeaustenr.svg)](https://zenodo.org/badge/latestdoi/22224/juliasilge/janeaustenr)
-
-# janeaustenr
 
 ## An R Package for Jane Austen's Complete Novels
 
