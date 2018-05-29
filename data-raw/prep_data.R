@@ -84,8 +84,8 @@ hexSticker::sticker("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/J
                     p_family = "RobotoCondensed-Regular",
                     s_x=1, s_y=0.95, s_width=0.96,
                     url="janeaustenr",
-                    u_size = 3,
-                    u_y = 0.11,
+                    u_size = 2,
+                    u_y = 0.1,
                     u_color = "black",
                     filename="tools/janeaustenr.png")
 
