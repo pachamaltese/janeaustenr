@@ -1,49 +1,36 @@
+# oscarwilder <img src="https://pachamaltese.github.io/oscarwilder/hexicon.svg" width=150 align="right" alt="hexicon"/>
 
-# janeaustenr <img src="tools/logo.png" align="right"/>
+## An R Package for Oscar Wilde's Complete and Presented Plays
 
-[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/janeaustenr)](https://cran.r-project.org/package=janeaustenr)
-[![Build Status](https://travis-ci.org/juliasilge/janeaustenr.svg?branch=master)](https://travis-ci.org/juliasilge/janeaustenr)
-[![DOI](https://zenodo.org/badge/22224/juliasilge/janeaustenr.svg)](https://zenodo.org/badge/latestdoi/22224/juliasilge/janeaustenr)
+> *"Those who find beautiful meanings in beautiful things are the cultivated. For these there is hope. They are the elect to whom beautiful things mean only beauty."* Oscar Wilde.
 
-## An R Package for Jane Austen's Complete Novels
+This package is a fork of [janeaustenr](https://github.com/juliasilge/janeaustenr) and provides access to the full texts of Oscar Wilde's 7 completed, presented plays. The UTF-8 plain text for each novel was sourced from [Project Gutenberg](https://www.gutenberg.org/), processed a bit, and is ready for text analysis. Each text is in a character vector with elements of about 70 characters. The package contains:
 
-> “The person, be it gentleman or lady, who has not pleasure in a good novel, 
-> must be intolerably stupid.”
+* `vera_or_the_nihilists`: *Vera; Or, The Nihilists*, published in 1880
+* `salome`: *Salome*, published in 1881
+* `the_dutchess_of_padua`: *The Dutchess of Padua*, published in 1881
+* `lady_windermeres_fan`: *Lady Windermere's Fan*, published in 1882
+* `a_woman_of_no_importance`: *A Woman of No Importance*, published in 1883
+* `an_ideal_husband`: *An Ideal Husband*, published in 1895
+* `the_importance_of_being_earnest`: *The Importance of Being Earnest*, published in 1895
 
-(from Mr. Tilney in *Northanger Abbey*)
+There is also a function `wilde_plays()` that returns a tidy data frame of all 7 plays. 
 
-This package provides access to the full texts of Jane Austen's 6 completed, published novels. The UTF-8 plain text for each novel was sourced from [Project Gutenberg](https://www.gutenberg.org/), processed a bit, and is ready for text analysis. Each text is in a character vector with elements of about 70 characters. The package contains:
+Users should be aware that there are some differences in usage between the novels as made available by Project Gutenberg. For example, "anything" vs. "any thing", "Mr" vs. "Mr.", and using underscores vs. all caps to indicate italics/emphasis. 
 
-* `sensesensibility`:  *Sense and Sensibility*, published in 1811
-* `prideprejudice`:  *Pride and Prejudice*, published in 1813
-* `mansfieldpark`:  *Mansfield Park*, published in 1814
-* `emma`:  *Emma*, published in 1815
-* `northangerabbey`:  *Northanger Abbey*, published posthumously in 1818
-* `persuasion`:  *Persuasion*, also published posthumously in 1818
-
-There is also a function `austen_books()` that returns a tidy data frame of all 6 novels. 
-
-Users should be aware that there are some differences in usage between the novels as made available by Project Gutenberg. For example, "anything" vs. "any thing", "Mr" vs. "Mr.", and using underscores vs. all caps to indicate italics/emphasis.
+The texts were obtained by using `gutenbergr::` and some additional text cleaning was made by using `stringr::`.
 
 ## Installation
 
-To install the package type the following:
+You can install the released version of lp from Github with:
 
-```
-install.packages("janeaustenr")
-library(janeaustenr)
-```
-
-Or you can install the development version from Github:
-
-```
-library(devtools)
-install_github("juliasilge/janeaustenr")
-library(janeaustenr)
+``` r
+source("https://install-github.me/pachamaltese/oscarwilder")
 ```
 
 ## How to Use This Package
 
-For some ideas on getting started with analyzing these texts, see my [blog post on sentiment analysis of Austen's novels](https://juliasilge.com/blog/if-i-loved-nlp-less/). For help within R, try `?persuasion` or similar for getting started with the data sets.
+For some ideas on getting started with analyzing these texts, see Julia Silge's excellent post
+[blog post on sentiment analysis of Austen's novels](https://juliasilge.com/blog/if-i-loved-nlp-less/). For help within R, try `?salome` or similar for getting started with the data sets.
 
 This project is released with a [Contributor Code of Conduct](CONDUCT.md). By participating in this project you agree to abide by its terms.
