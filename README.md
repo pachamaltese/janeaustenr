@@ -1,5 +1,13 @@
 # oscarwilder <img src="https://pachamaltese.github.io/oscarwilder/hexicon.svg" width=150 align="right" alt="hexicon"/>
 
+<!-- badges: start -->
+[![R build
+status](https://github.com/pachamaltese/oscarwilder/workflows/R-CMD-check/badge.svg)](https://github.com/pachamaltese/oscarwilder/actions?workflow=R-CMD-check)
+[![Codecov test
+coverage](https://codecov.io/gh/pachamaltese/oscarwilder/branch/master/graph/badge.svg)](https://codecov.io/gh/pachamaltese/oscarwilder?branch=master)
+[![Lifecycle: maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+<!-- badges: end -->
+
 ## An R Package for Oscar Wilde's Complete and Presented Plays
 
 > *"Those who find beautiful meanings in beautiful things are the cultivated. For these there is hope. They are the elect to whom beautiful things mean only beauty."* Oscar Wilde.
